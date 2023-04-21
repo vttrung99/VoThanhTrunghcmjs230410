@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-input{
+        
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: aliceblue;
+        margin-top: 50px;
+        border: 1px solid black;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .flex-infor{
+        background-image: linear-gradient(to right, rgb(247, 74, 6), rgb(243, 219, 223));
+        display: flex;
+
+    }
+    .flex-infor1{
+       width: 100%;
+       height: auto;
+       padding-top: 10px;
+       background-color: antiquewhite;
+        /* position: relative;
+        flex: 1; */
+
+    }
+    span{
+        /* min-width: 100px; */
+        /* padding: 10px; */
+        min-width: 100px;
+        padding: 10px;
+    }
+    input{
+        margin-left: 0px ;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        flex: 0.5px;
+    }
+    .button{
+        margin-top: 32px;
+        /* padding-top: 20px; */
+    }
+    .link{
+        margin: 28px 20px 20px;
+    }
+    .flex-container{
+        /* width: 200px;
+        height: auto; */
+        display: flex;
+        justify-content: space-evenly; 
+        position: relative;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+        
+    .flex-item1{
+        width: 100px;
+        height: 20px;
+        position: relative;
+    }
+    .flex-item2{
+        width: 200px;
+        height: auto;
+        background-color: blue;
+        object-fit: cover;
+        position: relative;
+    }
+    .flex-item-img{
+        height: 220px;
+    }
+    .h{
+        width: 100%;
+        height: 100p%;
+        background-color: aquamarine;
+        object-fit: cover;
+    }
+    h4{
+        /* margin: 0px; */
+
+    }
+    p{
+        height: 100%;
+
+        margin: 0px;
+    }
+    .item1{
+        width: 100%;
+        height: auto;
+    }
+   
+    .class1{
+        width: 100%;
+        display:flex;
+        position: relative;
+        justify-content: space-around;
+        background-color: aqua;
+       margin-top: 20px;
+        
+    }
+    .class2{
+        width: 100px;
+        height: 200px;
+        position: relative;
+        margin:10px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="flex-input">
+        <!-- <h2 style="text-align: center;"> log-in</h2> -->
+         <div class="flex-infor">
+             <h1><span>RIKKEY_ACADEMY_SHOP</span></h1>
+             <input type="text">
+             <div class="button"><button>i</button></div>
+             <a href="" class="link">giỏ hàng</a>
+             <a href="" class="link">Đăng ký</a>
+        </div>
+            <div class="flex-infor1">
+                <div class="flex-container">
+                    <div class="flex-item1">
+                        <h4 class="item1">Danh mục sản phẩm</h4>
+                        <p>Tất cả sản phẩm thiết bị điện tử<br> sách <br>
+                            đồ tiêu dùng <br>
+                            thời trang
+                        </p>
+                    </div>
+                    <div class="flex-item2">
+                        <p class="flex-item-img"><img class="h" src="./forder/iphone11promax.jpg" alt=""></p>
+                    <div>
+                        <h4>iphone 12 promax</h4><br>
+                        <p>35.000.000đ</p>
+                        <p>48 đã bán</p>
+                    </div>
+                    </div>
+                    <div class="flex-item2">
+                       <p class="flex-item-img"> <img class="h" src="./forder/DacNhanTam (1).jpg" alt=""></p>
+                       <div>
+                            <h4>Đắc nhân tâm</h4><br>
+                            <p>35.000.000đ</p>
+                            <p>16498 đã bán</p>
+                        </div> 
+                    </div>
+                    <div class="flex-item2">
+                        <p class="flex-item-img"><img class="h" src="./forder/haohao.jpg" alt=""></p>
+                        <div>
+                            <h4>Thùng mỳ hảo hảo</h4><br>
+                            <p>35.000.000đ</p>
+                            <p>14905 đã bán</p>
+                        </div>
+                    </div>
+                    <div class="flex-item2">
+                        <p class="flex-item-img"> <img class="h" src="./forder/BiaHeineken.jpg" alt=""></p>
+                        <div>
+                            <h4>Thùng heniken</h4><br>
+                            <p>35.000.000đ</p>
+                            <p>6843 đã bán</p>
+                        </div>
+                    </div>
+                    <div class="flex-item2">
+                        <p class="flex-item-img"><img class="h" src="./forder/sunlight.jpg" alt=""></p>
+                        <div>
+                        
+                            <h4>Nước rửa chén sunline</h4><br>
+                            <p>35.000.000đ</p>
+                            <p>3516 đã bán</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class1">
+        <div class="class2">
+            <h4>Chăm sóc khach hàng</h4>
+            <p>Trung tâm trợ giúp hướng dẫn mua hàng</p>
+        </div>
+        <div class="class2">
+            <h4>Giới thiệu</h4>
+            <p>Điều khoảng chính sách bảo mật tuyển dụng</p>
+        </div>
+        <div class="class2">
+            <h4>Danh mục sản phẩm</h4>
+            <p>Thời trang đồ tiêu dùng thiết bị điện tử sách</p>
+        </div>
+        <div class="class2">
+            <h4>Theo giỏi chúng tôi </h4>
+            <p>Facebook Intergram Twitter</p>
+        </div>
+        <div class="class2">
+            <h4>Đội ngũ phát triển</h4>
+            <p>Trịnh Quốc Hai</p>
+    </div>
+    </div>
+</body>
+</html>
